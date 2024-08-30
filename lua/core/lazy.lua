@@ -1,4 +1,7 @@
 return {
+  change_detection = {
+    notify = false,
+  },
   defaults = { lazy = true },
   install = { colorscheme = { "rose-pine" } },
 
@@ -21,7 +24,7 @@ return {
         "gzip",
         "logipat",
         --"netrw",
-        "netrwPlugin",
+        --"netrwPlugin",
         "netrwSettings",
         "netrwFileHandlers",
         "matchit",
